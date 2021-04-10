@@ -1,0 +1,37 @@
+﻿  Main.cpp
+C:\Users\koko\source\repos\Bubble-Sort\Main.cpp(22,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\koko\source\repos\Bubble-Sort\Main.cpp(30,66): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\koko\source\repos\Bubble-Sort\Main.cpp(32,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\koko\source\repos\Bubble-Sort\Main.cpp(32,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\koko\source\repos\Bubble-Sort\Main.cpp(61,60): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\koko\source\repos\Bubble-Sort\Main.cpp(61,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\koko\source\repos\Bubble-Sort\Main.cpp(62,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 31 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Bubble-Sort.vcxproj -> C:\Users\koko\source\repos\Bubble-Sort\x64\Release\Bubble-Sort.exe
