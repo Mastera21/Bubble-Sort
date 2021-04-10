@@ -28,7 +28,7 @@ int main() {
 
 	for (int i = 0; i < 100; i++) {						  //X      //Y
 		rectangles[i] = new sf::RectangleShape(sf::Vector2f(8, values[i]));
-		rectangles[i]->setFillColor(sf::Color::Red);
+		rectangles[i]->setFillColor(sf::Color::White);
 		rectangles[i]->setPosition(sf::Vector2f(1 + 10 * i, 500 - values[i]));
 	}
 	//800
