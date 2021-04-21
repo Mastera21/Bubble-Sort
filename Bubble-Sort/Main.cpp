@@ -63,7 +63,6 @@ int main() {
 			window.draw(*rectangles[i]);
 		}
 
-
 		window.display();
 	}
 	ShowConsole();
