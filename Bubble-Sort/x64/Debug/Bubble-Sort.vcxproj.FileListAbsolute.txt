@@ -1,1 +1,2 @@
 C:\Users\koko\source\repos\Bubble-Sort\x64\Debug\Bubble-Sort.exe
+C:\Users\user\GitHub Repositorys\Bubble-Sort\Bubble-Sort\x64\Debug\Bubble-Sort.exe
