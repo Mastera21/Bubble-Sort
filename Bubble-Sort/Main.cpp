@@ -9,25 +9,17 @@ sf::RectangleShape* rectangles[100];
 
 int main() {
 	
-	/* initialize random seed: */
-	srand(time(NULL));
-
 	for (int i = 0; i < 100; i++) {
 		/* generate secret number 0 to 500: */
 		values[i] = rand() % 500;
 	}
 	
-	//800
 	sf::RenderWindow window(sf::VideoMode(1000, 500), "Bubble_Sort");
-	sf::ContextSettings settings;
 	window.setFramerateLimit(30);
-	settings.antialiasingLevel = 8;
 
-	while (window.isOpen())
-	{
+	while (window.isOpen()){
 		sf::Event event;
-		while (window.pollEvent(event))
-		{
+		while (window.pollEvent(event)){
 			if (event.type == sf::Event::Closed) {
 				window.close();
 			}
@@ -52,6 +44,8 @@ int main() {
 
 		window.display();
 	}
+
+	delete[] rectangles;
 
 	return 0;
 }
