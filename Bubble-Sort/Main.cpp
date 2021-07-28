@@ -45,7 +45,5 @@ int main() {
 		window.display();
 	}
 
-	delete[] rectangles;
-
 	return 0;
 }
